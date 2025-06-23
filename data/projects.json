@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "F1 Data Analysis Tool",
+    "description": "Web-based Data Analysis Tool that combines data visualisation with statistical analysis on Formula 1 data.",
+    "techStack": ["Python", "Git"],
+    "githubLink": "https://github.com/maxsherman1/f1-data-analysis-tool",
+    "reportLink": "/reports/F1_Data_Analysis_Tool_Report.pdf"
+  },
+  {
+    "id": 2,
+    "title": "F1 Data Mining",
+    "description": "Data mining project performing clustering, classification, and association rule mining on Formula 1 data.",
+    "techStack": ["PySpark", "DataBricks"],
+    "githubLink": "https://github.com/maxsherman1/f1-data-mining",
+    "reportLink": "/reports/Data_Mining_Coursework.pdf"
+  },
+  {
+    "id": 3,
+    "title": "Individual Usability Evaluation",
+    "description": "Usability Evaluation on data visualisation in Microsoft Excel.",
+    "techStack": ["Heuristic Evaluation", "User Testing"],
+    "githubLink": "",
+    "reportLink": "/reports/Individual_Usability_Evaluation_Project.pdf"
+  },
+  {
+    "id": 4,
+    "title": "Technical report: Comparison of languages",
+    "description": "Technical report on programming languages and game engine libraries.",
+    "techStack": ["Java", "C++", "FXGL", "xcube2d"],
+    "githubLink": "",
+    "reportLink": "/reports/Comparison_of_Languages_report.pdf"
+  },
+  {
+    "id": 5,
+    "title": "Technical report: Design Patterns & Architecture Design",
+    "description": "Usability Evaluation on data visualisation in Microsoft Excel.",
+    "techStack": ["Factory", "MVC", "Singleton", "Observer", "Strategy", "Quality Attribute Scenarios", "UML Diagrams"],
+    "githubLink": "",
+    "reportLink": "/reports/Architecture_Design_and_Documentation.pdf"
+  }
+]

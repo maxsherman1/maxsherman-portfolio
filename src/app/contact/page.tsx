@@ -31,7 +31,7 @@ export default function Contact() {
       } else {
         setSubmissionStatus('error');
       }
-    } catch (error) {
+    } catch {
       setSubmissionStatus('error');
     }
   };

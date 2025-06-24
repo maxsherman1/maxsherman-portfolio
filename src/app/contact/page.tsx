@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import { MdEmail, MdPhone, MdLocationOn } from 'react-icons/md';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -39,8 +40,36 @@ export default function Contact() {
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-6 text-center">Contact Me</h1>
-      <div className="max-w-xl mx-auto">
-        <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
+      <div className="max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-semibold mb-4 text-[var(--text-primary)]">Contact Details</h2>
+            <ul className="space-y-4">
+              <li className="flex items-center text-[var(--foreground)]">
+                <MdEmail className="text-[var(--link-active)] mr-2" size={30} />
+                <div>
+                  <h3 className="text-lg font-semibold text-[var(--foreground)]">Email</h3>
+                  <a href="mailto:work.maxsherman@outlook.com" className="hover:underline text-[var(--foreground)]">work.maxsherman@outlook.com</a>
+                </div>
+              </li>
+              <li className="flex items-center text-[var(--foreground)]">
+                <MdPhone className="text-[var(--link-active)] mr-2" size={30} />
+                <div>
+                  <h3 className="text-lg font-semibold text-[var(--foreground)]">Phone</h3>
+                  <a href="tel:+447944304575" className="hover:underline text-[var(--foreground)]">+44 (0) 7944 304 575</a>
+                </div>
+              </li>
+              <li className="flex items-center text-[var(--foreground)]">
+                <MdLocationOn className="text-[var(--link-active)] mr-2" size={30} />
+                <div>
+                  <h3 className="text-lg font-semibold text-[var(--foreground)]">Location</h3>
+                  <span>Nijmegen, NL</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
+            <h2 className="text-2xl font-semibold mb-4 text-[var(--text-primary)]">Send me a message</h2>
           <div className="mb-4">
             <label htmlFor="name" className="block text-[var(--text-primary)] font-semibold mb-1">
               Name
@@ -98,5 +127,6 @@ export default function Contact() {
         </form>
       </div>
     </div>
+  </div>
   );
 }

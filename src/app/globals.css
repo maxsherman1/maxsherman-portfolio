@@ -27,7 +27,9 @@
     --background: #121212; /* Dark background for dark mode */
     --foreground: #ffffff; /* White for better contrast in dark mode */
     --accent: #153e75; /* Slightly adjusted dark blue accent for dark mode */
+    --accent-opacity: rgba(30,58,138,0.5);
     --secondary-accent: #c49f45; /* Adjusted soft gold for dark mode */
+    --secondary-accent-opacity: rgba(212,175,55,0.5);
     --nav-bg: #111827; /* Darker Gray-900 for navigation background in dark mode */
     --text-primary: #ffffff; /* Light Gray-100 for primary text in dark mode */
     --text-hover: #9ca3af; /* Gray-400 for hover effects in dark mode */

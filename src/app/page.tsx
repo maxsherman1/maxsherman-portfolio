@@ -11,13 +11,13 @@ export default function Home() {
             Hi, I am Max Sherman, a passionate software developer with expertise in web development, specializing in React and Next.js.
           </p>
           <div className="flex justify-center space-x-6 mb-8">
-            <Link href="/resume/en_software.pdf" target="_blank" rel="noopener noreferrer" className="bg-[var(--accent)] text-white px-6 py-3 rounded-lg font-medium shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
+            <Link href="/resume/en_software.pdf" target="_blank" rel="noopener noreferrer" className="bg-[var(--accent)] text-white px-6 py-3 rounded-lg font-medium shadow-md hover:shadow-lg hover:scale-105 hover:bg-[var(--accent-opacity)] transition-all duration-300">
               Download CV
             </Link>
-            <Link href="https://github.com/maxsherman1" target="_blank" rel="noopener noreferrer" className="bg-[var(--secondary-accent)] text-white px-6 py-3 rounded-lg font-medium shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
+            <Link href="https://github.com/maxsherman1" target="_blank" rel="noopener noreferrer" className="bg-[var(--secondary-accent)] text-white px-6 py-3 rounded-lg font-medium shadow-md hover:shadow-lg hover:scale-105 hover:bg-[var(--secondary-accent-opacity)] transition-all duration-300">
               GitHub
             </Link>
-            <Link href="https://www.linkedin.com/in/maxsherman1/" target="_blank" rel="noopener noreferrer" className="bg-[var(--secondary-accent)] text-white px-6 py-3 rounded-lg font-medium shadow-md hover:shadow-lg hover:bg-opacity-90 transition-all duration-300">
+            <Link href="https://www.linkedin.com/in/maxsherman1/" target="_blank" rel="noopener noreferrer" className="bg-[var(--secondary-accent)] text-white px-6 py-3 rounded-lg font-medium shadow-md hover:shadow-lg hover:scale-105 hover:bg-[var(--secondary-accent-opacity)] transition-all duration-300">
               LinkedIn
             </Link>
           </div>

@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <div className="container mx-auto p-4">
       <section className="text-center py-6">
-        <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-2 max-w-3xl mx-auto transition-all duration-500">
-          <h1 className="text-5xl font-bold mb-6 p-4 tracking-tight">Max Sherman</h1>
+        <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-8 max-w-3xl mx-auto transition-all duration-500">
+          <h1 className="text-5xl font-bold mb-6 tracking-tight">Max Sherman</h1>
           <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-700 dark:text-gray-300">
             Hi, I am Max Sherman, a passionate software developer with expertise in web development, specializing in React and Next.js.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-8">
+          <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-2">
             <Link href="/resume/en_software.pdf" target="_blank" rel="noopener noreferrer" className="bg-[var(--accent)] text-white px-6 py-3 rounded-lg font-medium shadow-md hover:shadow-lg hover:scale-105 hover:bg-[var(--accent-opacity)] transition-all duration-300 w-1/2 sm:w-auto self-center">
               Download CV
             </Link>

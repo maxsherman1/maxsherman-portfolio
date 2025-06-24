@@ -1,9 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f0f0f0; /* Light grey background */
-  --foreground: #1a1a1a; /* Almost black foreground */
+  --background: #f9f9f9; /* Off-white background for a modern look */
+  --foreground: #000000; /* True black for better contrast */
   --accent: #1e3a8a; /* Dark blue accent */
+  --secondary-accent: #d4af37; /* Soft gold for highlights */
   --nav-bg: #1f2937; /* Gray-800 for navigation background */
   --text-primary: #ffffff; /* White for primary text */
   --text-hover: #d1d5db; /* Gray-300 for hover effects */
@@ -23,9 +24,10 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #d1d1d1; /* Slightly darker grey for dark mode background */
-    --foreground: #2d2d2d; /* Slightly lighter almost black for dark mode foreground */
+    --background: #121212; /* Dark background for dark mode */
+    --foreground: #ffffff; /* White for better contrast in dark mode */
     --accent: #153e75; /* Slightly adjusted dark blue accent for dark mode */
+    --secondary-accent: #c49f45; /* Adjusted soft gold for dark mode */
     --nav-bg: #111827; /* Darker Gray-900 for navigation background in dark mode */
     --text-primary: #ffffff; /* Light Gray-100 for primary text in dark mode */
     --text-hover: #9ca3af; /* Gray-400 for hover effects in dark mode */
@@ -39,5 +41,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
 }

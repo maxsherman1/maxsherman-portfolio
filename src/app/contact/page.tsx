@@ -40,9 +40,9 @@ export default function Contact() {
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-6 text-center">Contact Me</h1>
       <div className="max-w-xl mx-auto">
-        <form onSubmit={handleSubmit} className="bg-[var(--text-primary)] shadow-md rounded-lg p-6">
+        <form onSubmit={handleSubmit} className="bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
           <div className="mb-4">
-            <label htmlFor="name" className="block text-[var(--text-secondary)] font-semibold mb-1">
+            <label htmlFor="name" className="block text-[var(--text-primary)] font-semibold mb-1">
               Name
             </label>
             <input
@@ -56,7 +56,7 @@ export default function Contact() {
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-[var(--text-secondary)] font-semibold mb-1">
+            <label htmlFor="email" className="block text-[var(--text-primary)] font-semibold mb-1">
               Email
             </label>
             <input
@@ -70,7 +70,7 @@ export default function Contact() {
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="message" className="block text-[var(--text-secondary)] font-semibold mb-1">
+            <label htmlFor="message" className="block text-[var(--text-primary)] font-semibold mb-1">
               Message
             </label>
             <textarea

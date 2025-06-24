@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className="container mx-auto p-4">
       <section className="text-center py-6">
-        <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-8 max-w-3xl mx-auto transition-all duration-500">
-          <h1 className="text-5xl font-bold mb-6 tracking-tight">Max Sherman</h1>
+        <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-2 max-w-3xl mx-auto transition-all duration-500">
+          <h1 className="text-5xl font-bold mb-6 p-4 tracking-tight">Max Sherman</h1>
           <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-700 dark:text-gray-300">
             Hi, I am Max Sherman, a passionate software developer with expertise in web development, specializing in React and Next.js.
           </p>

@@ -7,7 +7,7 @@ export default function Home() {
       <section className="text-center py-12">
         <h1 className="text-4xl font-bold mb-4">Max Sherman</h1>
         <p className="text-lg mb-6 max-w-2xl mx-auto">
-          Hi, I'm Max Sherman, a passionate software developer with expertise in web development, specializing in React and Next.js.
+          Hi, I am Max Sherman, a passionate software developer with expertise in web development, specializing in React and Next.js.
         </p>
         <div className="flex justify-center space-x-4 mb-8">
           <Link href="/resume/en_software.pdf" target="_blank" rel="noopener noreferrer" className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">

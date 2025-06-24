@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "title": "Website for CWD Consulting",
+    "description": "React based website for CWD Consulting, ",
+    "techStack": ["React", "Next.js", "TypeScript", "CSS"],
+    "githubLink": "https://github.com/maxsherman1/cwd-consulting",
+    "reportLink": "https://cwdconsulting.co.uk"
+  },
+  {
+    "id": 2,
     "title": "F1 Data Analysis Tool",
     "description": "Web-based Data Analysis Tool that combines data visualisation with statistical analysis on Formula 1 data.",
     "techStack": ["Python", "Git"],
@@ -8,7 +16,7 @@
     "reportLink": "/reports/F1_Data_Analysis_Tool_Report.pdf"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "F1 Data Mining",
     "description": "Data mining project performing clustering, classification, and association rule mining on Formula 1 data.",
     "techStack": ["PySpark", "DataBricks"],
@@ -16,7 +24,7 @@
     "reportLink": "/reports/Data_Mining_Coursework.pdf"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Individual Usability Evaluation",
     "description": "Usability Evaluation on data visualisation in Microsoft Excel.",
     "techStack": ["Heuristic Evaluation", "User Testing"],
@@ -24,7 +32,7 @@
     "reportLink": "/reports/Individual_Usability_Evaluation_Project.pdf"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Technical report: Comparison of languages",
     "description": "Technical report on programming languages and game engine libraries.",
     "techStack": ["Java", "C++", "FXGL", "xcube2d"],
@@ -32,7 +40,7 @@
     "reportLink": "/reports/Comparison_of_Languages_report.pdf"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Technical report: Design Patterns & Architecture Design",
     "description": "Usability Evaluation on data visualisation in Microsoft Excel.",
     "techStack": ["Factory", "MVC", "Singleton", "Observer", "Strategy", "Quality Attribute Scenarios", "UML Diagrams"],

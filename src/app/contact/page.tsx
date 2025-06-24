@@ -40,9 +40,9 @@ export default function Contact() {
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-6 text-center">Contact Me</h1>
       <div className="max-w-xl mx-auto">
-        <form onSubmit={handleSubmit} className="bg-white shadow-md rounded-lg p-6">
+        <form onSubmit={handleSubmit} className="bg-[var(--text-primary)] shadow-md rounded-lg p-6">
           <div className="mb-4">
-            <label htmlFor="name" className="block text-gray-700 font-semibold mb-1">
+            <label htmlFor="name" className="block text-[var(--text-secondary)] font-semibold mb-1">
               Name
             </label>
             <input
@@ -52,11 +52,11 @@ export default function Contact() {
               value={formData.name}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800"
+              className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[var(--link-active)] text-[var(--foreground)]"
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="email" className="block text-gray-700 font-semibold mb-1">
+            <label htmlFor="email" className="block text-[var(--text-secondary)] font-semibold mb-1">
               Email
             </label>
             <input
@@ -66,11 +66,11 @@ export default function Contact() {
               value={formData.email}
               onChange={handleChange}
               required
-              className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800"
+              className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[var(--link-active)] text-[var(--foreground)]"
             />
           </div>
           <div className="mb-4">
-            <label htmlFor="message" className="block text-gray-700 font-semibold mb-1">
+            <label htmlFor="message" className="block text-[var(--text-secondary)] font-semibold mb-1">
               Message
             </label>
             <textarea
@@ -80,20 +80,20 @@ export default function Contact() {
               onChange={handleChange}
               required
               rows={4}
-              className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-800"
+              className="w-full px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-[var(--link-active)] text-[var(--foreground)]"
             ></textarea>
           </div>
           <button
             type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="bg-[var(--link-active)] text-[var(--text-primary)] px-4 py-2 rounded hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-[var(--link-active)]"
           >
             Send Message
           </button>
           {submissionStatus === 'success' && (
-            <div className="mt-4 text-green-600">Your message has been sent successfully!</div>
+            <div className="mt-4 text-[var(--success)]">Your message has been sent successfully!</div>
           )}
           {submissionStatus === 'error' && (
-            <div className="mt-4 text-red-600">There was an error sending your message. Please try again.</div>
+            <div className="mt-4 text-[var(--error)]">There was an error sending your message. Please try again.</div>
           )}
         </form>
       </div>

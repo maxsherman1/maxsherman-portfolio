@@ -14,7 +14,7 @@ if (!fs.existsSync(destDir)) {
 }
 
 // Download the file
-followRedirects(url, (response) => {
+https.get(url, (response) => {
     // Check if the content type indicates a PDF or a generic binary stream
     const contentType = response.headers['content-type'] || '';
     if (!contentType.includes('application/pdf') && !contentType.includes('application/octet-stream')) {

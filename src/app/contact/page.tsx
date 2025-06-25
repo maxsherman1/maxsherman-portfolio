@@ -46,21 +46,21 @@ export default function Contact() {
             <h2 className="text-2xl font-semibold mb-4 text-[var(--text-primary)]">Contact Details</h2>
             <ul className="space-y-4">
               <li className="flex items-center text-[var(--foreground)]">
-                <MdEmail className="text-[var(--link-active)] mr-2" size={30} />
+                <MdEmail className="text-[var(--secondary-accent)] mr-2" size={30} />
                 <div>
                   <h3 className="text-lg font-semibold text-[var(--foreground)]">Email</h3>
                   <a href="mailto:work.maxsherman@outlook.com" className="hover:underline text-[var(--foreground)]">work.maxsherman@outlook.com</a>
                 </div>
               </li>
               <li className="flex items-center text-[var(--foreground)]">
-                <MdPhone className="text-[var(--link-active)] mr-2" size={30} />
+                <MdPhone className="text-[var(--secondary-accent)] mr-2" size={30} />
                 <div>
                   <h3 className="text-lg font-semibold text-[var(--foreground)]">Phone</h3>
                   <a href="tel:+447944304575" className="hover:underline text-[var(--foreground)]">+44 (0) 7944 304 575</a>
                 </div>
               </li>
               <li className="flex items-center text-[var(--foreground)]">
-                <MdLocationOn className="text-[var(--link-active)] mr-2" size={30} />
+                <MdLocationOn className="text-[var(--secondary-accent)] mr-2" size={30} />
                 <div>
                   <h3 className="text-lg font-semibold text-[var(--foreground)]">Location</h3>
                   <span>Nijmegen, NL</span>
@@ -114,7 +114,7 @@ export default function Contact() {
           </div>
           <button
             type="submit"
-            className="bg-[var(--link-active)] text-[var(--text-primary)] px-4 py-2 rounded hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-[var(--link-active)]"
+            className="bg-[var(--secondary-accent)] text-[var(--text-primary)] px-4 py-2 rounded hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-[var(--link-active)]"
           >
             Send Message
           </button>

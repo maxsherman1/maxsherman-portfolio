@@ -36,17 +36,17 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
       </div>
       <div className="flex space-x-4">
         {project.githubLink && (
-          <Link href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-[var(--link-active)] hover:underline">
+          <Link href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-[var(--secondary-accent)] hover:underline">
             GitHub
           </Link>
         )}
         {project.websiteLink && (
-          <Link href={project.websiteLink} target="_blank" rel="noopener noreferrer" className="text-[var(--link-active)] hover:underline">
+          <Link href={project.websiteLink} target="_blank" rel="noopener noreferrer" className="text-[var(--secondary-accent)] hover:underline">
             Website
           </Link>
         )}
         {project.reportLink && (
-          <Link href={project.reportLink} target="_blank" rel="noopener noreferrer" className="text-[var(--link-active)] hover:underline">
+          <Link href={project.reportLink} target="_blank" rel="noopener noreferrer" className="text-[var(--secondary-accent)] hover:underline">
             Report
           </Link>
         )}

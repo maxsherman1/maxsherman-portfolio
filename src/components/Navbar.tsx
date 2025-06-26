@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="bg-[var(--nav-bg)] text-[var(--text-primary)] p-4">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="text-xl font-bold">
+        <Link href="/" className="text-2xl font-bold">
           Max Sherman
         </Link>
         <div className="flex space-x-6">

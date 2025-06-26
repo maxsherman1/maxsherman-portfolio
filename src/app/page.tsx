@@ -8,7 +8,7 @@ export default function Home() {
         <div className="bg-white dark:bg-gray-800 shadow-lg rounded-xl p-8 max-w-3xl mx-auto transition-all duration-500">
           <h1 className="text-5xl font-bold mb-6 tracking-tight">Max Sherman</h1>
           <p className="text-xl mb-8 max-w-2xl mx-auto text-gray-700 dark:text-gray-300">
-            Hi, I am Max Sherman, a passionate software developer with expertise in web development, specializing in React and Next.js.
+            I&apos;m Max Sherman, a passionate software developer with expertise in full-stack development. I hold a First-Class Honours degree in Computer Science from the University of Brighton, graduating with a GPA of 80. I also completed a placement year at Jaguar Land Rover, where I worked as a software engineer.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-2">
             <Link href="/resume/en_software.pdf" target="_blank" rel="noopener noreferrer" className="bg-[var(--accent)] text-white px-6 py-3 rounded-lg font-medium shadow-md hover:shadow-lg hover:scale-105 hover:bg-[var(--accent-opacity)] transition-all duration-300 w-1/2 sm:w-auto self-center">

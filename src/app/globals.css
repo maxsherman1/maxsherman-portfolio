@@ -4,10 +4,11 @@
   --background: #f9f9f9; /* Off-white background for a modern look */
   --foreground: #000000; /* True black for better contrast */
   --accent: #1e3a8a; /* Dark blue accent */
+  --accent-opacity: rgba(30,58,138,0.5);
   --secondary-accent: #d4af37; /* Soft gold for highlights */
+  --secondary-accent-opacity: rgba(212,175,55,0.5);
   --nav-bg: #1f2937; /* Gray-800 for navigation background */
-  --text-primary: #ffffff; /* White for primary text */
-  --text-hover: #d1d5db; /* Gray-300 for hover effects */
+  --text-primary: #000000; /* Black for primary text */
   --link-active: #38bdf8; /* Blue-400 for active links */
   --text-secondary: #374151; /* Gray-700 for secondary text */
   --success: #16a34a; /* Green-600 for success messages */
@@ -32,7 +33,6 @@
     --secondary-accent-opacity: rgba(212,175,55,0.5);
     --nav-bg: #111827; /* Darker Gray-900 for navigation background in dark mode */
     --text-primary: #ffffff; /* Light Gray-100 for primary text in dark mode */
-    --text-hover: #9ca3af; /* Gray-400 for hover effects in dark mode */
     --link-active: #5495ff; /* Blue-300 for active links in dark mode */
     --text-secondary: #4b5563; /* Gray-600 for secondary text in dark mode */
     --success: #22c55e; /* Green-500 for success messages in dark mode */

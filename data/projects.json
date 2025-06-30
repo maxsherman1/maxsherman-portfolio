@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Website for CWD Consulting",
-    "description": "React based website for CWD Consulting, ",
+    "description": "React/Next.js based website for CWD Consulting. Utilises Tailwind CSS and includes a functional contact form.",
     "techStack": ["React", "Next.js", "TypeScript", "CSS"],
     "githubLink": "https://github.com/maxsherman1/cwd-consulting",
     "websiteLink": "https://cwdconsulting.vercel.app",

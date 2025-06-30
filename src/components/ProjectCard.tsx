@@ -28,7 +28,7 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
         <h3 className="text-lg font-semibold text-[var(--text-primary)] mb-2">Tech Stack:</h3>
         <ul className="flex flex-wrap gap-2">
           {project.techStack.map((tech, index) => (
-            <li key={index} className="bg-[var(--accent)] px-3 py-1 rounded text-[var(--text-primary)]">
+            <li key={index} className="bg-[var(--accent)] px-3 py-1 rounded text-white">
               {tech}
             </li>
           ))}

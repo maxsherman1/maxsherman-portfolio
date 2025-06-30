@@ -1,0 +1,69 @@
+[
+  {
+    "category": "Languages",
+    "skills": [
+      { "name": "Python", "level": 90 },
+      { "name": "Java / Kotlin", "level": 80 },
+      { "name": "C / C++", "level": 70 },
+      { "name": "JavaScript / TypeScript", "level": 60 },
+      { "name": "HTML / CSS", "level": 70 },
+      { "name": "SQL", "level": 70 },
+      { "name": "Bash / Shell Scripts", "level": 50 },
+      { "name": "MATLAB", "level": 80 }
+    ]
+  },
+  {
+    "category": "Development Tools",
+    "skills": [
+      { "name": "Git", "level": 100 },
+      { "name": "CI/CD", "level": 70 },
+      { "name": "Markdown", "level": 80 },
+      { "name": "PyCharm", "level": 90 },
+      { "name": "VS Code", "level": 90 },
+      { "name": "IntelliJ", "level": 90 },
+      { "name": "Figma / Canva", "level": 70 }
+    ]
+  },
+  {
+    "category": "Project Management Tools",
+    "skills": [
+      { "name": "Notion", "level": 80 },
+      { "name": "Trello", "level": 70 },
+      { "name": "JIRA", "level": 100 },
+      { "name": "GitHub / GitLab", "level": 90 },
+      { "name": "LaTeX", "level": 100 },
+      { "name": "Markdown", "level": 90 },
+      { "name": "Microsoft Office", "level": 100 }
+    ]
+  },
+  {
+    "category": "Frameworks",
+    "skills": [
+      { "name": "React", "level": 80 },
+      { "name": "Next.js", "level": 70 },
+      { "name": "Tailwind CSS", "level": 70 },
+      { "name": "Dash / Flask", "level": 60 },
+      { "name": "Simulink", "level": 90 }
+    ]
+  },
+  {
+    "category": "Testing",
+    "skills": [
+      { "name": "Unit", "level": 90 },
+      { "name": "Integration", "level": 80 },
+      { "name": "System", "level": 70 },
+      { "name": "MIL / SIL", "level": 90 },
+      { "name": "PIL / HIL", "level": 60 }
+    ]
+  },
+  {
+    "category": "Data Science",
+    "skills": [
+      { "name": "pandas / NumPy", "level": 90 },
+      { "name": "scikit-learn", "level": 80 },
+      { "name": "matplotlib", "level": 90 },
+      { "name": "PySpark", "level": 70 },
+      { "name": "DataBricks", "level": 80 }
+    ]
+  }
+]

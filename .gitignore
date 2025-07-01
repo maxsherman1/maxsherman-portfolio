@@ -19,6 +19,7 @@
 
 # production
 /build
+/public/resume/en_software.pdf
 
 # misc
 .DS_Store

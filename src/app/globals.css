@@ -7,7 +7,7 @@
   --accent-opacity: rgba(30,58,138,0.8);
   --secondary-accent: #d4af37; /* Soft gold for highlights */
   --secondary-accent-opacity: rgba(212,175,55,0.8);
-  --nav-accent: #1e3a8a;
+  --nav-accent: var(--accent);
   --nav-bg: #DEE2E6; /* Gray-800 for navigation background */
   --text-primary: #000000; /* Black for primary text */
   --link-active: #38bdf8; /* Blue-400 for active links */
@@ -32,7 +32,7 @@
     --accent-opacity: rgba(30,58,138,0.5);
     --secondary-accent: #c49f45; /* Adjusted soft gold for dark mode */
     --secondary-accent-opacity: rgba(212,175,55,0.5);
-    --nav-accent: #c49f45;
+    --nav-accent: var(--secondary-accent);
     --nav-bg: #111827; /* Darker Gray-900 for navigation background in dark mode */
     --text-primary: #ffffff; /* Light Gray-100 for primary text in dark mode */
     --link-active: #5495ff; /* Blue-300 for active links in dark mode */

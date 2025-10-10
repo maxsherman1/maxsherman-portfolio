@@ -1,0 +1,57 @@
+Executive Summary: Max Sherman Portfolio Project
+
+1. Project Overview:
+- Next.js 15.3.4 portfolio website with React 19 and TypeScript
+- Tailwind CSS for responsive design with dark mode support
+- Hosted on Vercel with CI/CD integration
+- Professional portfolio showcasing software development skills and projects
+
+2. Technical Stack:
+- Frontend: Next.js, React 19, TypeScript, Tailwind CSS
+- Backend: Next.js API routes
+- Data: JSON files for projects and skills
+- Email: Nodemailer with rate limiting
+- Testing: Unit, integration, and system testing experience
+- Tools: Git, JIRA, VS Code, PyCharm
+
+3. Key Features:
+- Project Showcase:
+  - 6 detailed projects with descriptions and tech stacks
+  - Responsive grid layout with ProjectCard components
+  - Links to GitHub repos, live sites, and reports
+- Skills Section:
+  - 6 categories of skills with proficiency levels
+  - Strongest in Python, Java/Kotlin, Git, JIRA
+  - Web development (React, Next.js, Tailwind)
+  - Data science (pandas, scikit-learn, matplotlib)
+- Contact System:
+  - Form with validation and rate limiting
+  - Email delivery via Nodemailer
+  - Contact details with email, phone, and location
+
+4. Architecture:
+- App Router structure with layout and page components
+- API routes for projects, skills, and contact form
+- Client-side data fetching with SWR
+- Static data stored in JSON files
+- Environment variables for sensitive configuration
+
+5. Professional Highlights:
+- First-Class Honours in Computer Science (University of Brighton)
+- Software engineering placement at Jaguar Land Rover
+- Technical reports on various computer science topics
+- Strong focus on data analysis and visualization
+
+6. Technical Reports:
+- F1 Data Analysis Tool
+- Data Mining Coursework
+- Usability Evaluation
+- Programming Language Comparison
+- Design Patterns & Architecture
+
+7. Development Practices:
+- TypeScript for type safety
+- ESLint for code quality
+- Responsive design principles
+- Error handling and loading states
+- Cache control headers for API responses

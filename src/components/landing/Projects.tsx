@@ -28,6 +28,16 @@ const ChartIcon = () => (
     <BarChart3 size={16} strokeWidth={1.75} aria-hidden />
 );
 
+function Connector() {
+    return (
+        <span className="flex flex-1 items-center" aria-hidden>
+            <span className="border-y-[4px] border-r-[5px] border-y-transparent border-r-white/20" />
+            <span className="h-0.5 flex-1 bg-white/20" />
+            <span className="border-y-[4px] border-l-[5px] border-y-transparent border-l-white/20" />
+        </span>
+    );
+}
+
 /* ---------- Small shared pieces ---------- */
 
 function TechChips({ items }: { items: string[] }) {
@@ -62,26 +72,14 @@ function DashboardPreview() {
                 <span className="label-code text-muted">Application Architecture</span>
             </div>
 
-            <div className="hidden sm:inline rounded-md border border-(--border) bg-surface/60 p-0 sm:p-4">
+            <div className="hidden sm:block rounded-md border border-(--border) bg-surface/60 p-0 sm:p-4">
                 <div className="flex items-center gap-2">
                     <span className="pt-0.5 label-code text-accent">Client</span>
-                    <span className="flex flex-1 items-center" aria-hidden>
-                        <span className="border-y-[4px] border-r-[5px] border-y-transparent border-r-white/20" />
-                        <span className="h-0.5 flex-1 bg-white/20" />
-                        <span className="border-y-[4px] border-l-[5px] border-y-transparent border-l-white/20" />
-                    </span>
+                    <Connector />
                     <span className="pt-0.5 label-code text-accent">API</span>
-                    <span className="flex flex-1 items-center" aria-hidden>
-                        <span className="border-y-[4px] border-r-[5px] border-y-transparent border-r-white/20" />
-                        <span className="h-0.5 flex-1 bg-white/20" />
-                        <span className="border-y-[4px] border-l-[5px] border-y-transparent border-l-white/20" />
-                    </span>
+                    <Connector />
                     <span className="pt-0.5 label-code text-accent">Data</span>
-                    <span className="flex flex-1 items-center" aria-hidden>
-                        <span className="border-y-[4px] border-r-[5px] border-y-transparent border-r-white/20" />
-                        <span className="h-0.5 flex-1 bg-white/20" />
-                        <span className="border-y-[4px] border-l-[5px] border-y-transparent border-l-white/20" />
-                    </span>
+                    <Connector />
                     <span className="pt-0.5 label-code text-accent">Storage</span>
                 </div>
             </div>

@@ -12,7 +12,7 @@ export async function GET() {
     response.headers.set('Cache-Control', 's-maxage=3600, stale-while-revalidate')
     
     return response
-  } catch (error) {
+  } catch {
     return NextResponse.json(
       { error: 'Failed to load projects data' },
       { status: 500 }

@@ -33,7 +33,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative overflow-hidden pb-8 sm:pb-12 lg:pb-16 pt-4 sm:pt-6 lg:pt-8"
+      className="scroll-mt-20 relative overflow-hidden pb-8 sm:pb-12 lg:pb-16 pt-4 sm:pt-6 lg:pt-8"
     >
       {/* Ambient wash (Layer 0) */}
       <div
@@ -63,8 +63,8 @@ export default function Hero() {
 
         {/* Summary */}
         <p className="measure mt-6 text-base text-muted sm:text-lg sm:leading-relaxed">
-          Software Engineer specializing in scalable web systems, real-time data
-          pipelines, and telemetry visualization. First-Class Honours graduate
+          Software Engineer specialising in scalable web systems, real-time data
+          pipelines, and embedded firmware. First-Class Honours graduate
           with industrial engineering background at{" "}
           <strong className="font-medium text-foreground">
             Jaguar Land Rover
@@ -73,30 +73,30 @@ export default function Hero() {
         </p>
 
         {/* Actions */}
-        <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
-          <a href="#contact" className="btn btn-primary">
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
+          <a href="/contact" className="btn btn-primary">
             Get in touch
             <ArrowRight size={16} strokeWidth={1.75} aria-hidden />
           </a>
-          <a href="#architecture" className="btn btn-secondary">
+          <a href="#projects" className="btn btn-secondary">
             <Terminal size={16} strokeWidth={1.75} aria-hidden />
-            Explore Architecture
+            Explore Projects
           </a>
           <a
-            href="https://github.com/"
+            href="https://github.com/maxsherman1"
             target="_blank"
             rel="noopener noreferrer"
-            className="btn btn-ghost label-code"
+            className="btn"
           >
-            <Code2 size={14} strokeWidth={1.75} aria-hidden />
+            <Code2 size={16} strokeWidth={1.75} aria-hidden />
             GitHub
           </a>
         </div>
 
         {/* Highlights */}
-        <ul className="mt-14 grid grid-cols-1 gap-4 sm:mt-16 md:grid-cols-3 lg:gap-6">
+        <ul className="mt-4 grid grid-cols-1 gap-4 sm:mt-10 md:grid-cols-3 lg:gap-6">
           {stats.map((stat) => (
-            <li key={stat.label} className="glass-card flex min-h-44 flex-col p-5 sm:min-h-52 sm:p-6">
+            <li key={stat.label} className="glass-card flex flex-col p-5 sm:p-6">
               <div className="flex items-start justify-between gap-4">
                 <span className="label-caps text-muted">{stat.label}</span>
                 <span className="text-accent">{stat.icon}</span>

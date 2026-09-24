@@ -58,7 +58,7 @@ function CardMeta({ tag, meta }: { tag: string; meta: string }) {
             <span className="label-caps rounded-sm bg-accent/10 px-2 py-1 text-accent">
                 {tag}
             </span>
-            <span className="label-code text-muted">{meta}</span>
+            <span className="hidden sm:block label-code text-muted">{meta}</span>
         </div>
     );
 }

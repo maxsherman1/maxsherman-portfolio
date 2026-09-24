@@ -1,4 +1,4 @@
-import { GraduationCap, Award, CheckCircle2 } from "lucide-react";
+import { GraduationCap, CheckCircle2 } from "lucide-react";
 
 /* ---------- Icons (Lucide React) ---------- */
 
@@ -62,7 +62,7 @@ export default function Education() {
                 Athletic Leadership
             </p>
             <p className="mt-2 text-lg font-semibold leading-none tracking-tight text-foreground sm:text-xl">
-                Men's Hockey Captain & Welfare Officer
+                Men&apos;s Hockey Captain & Welfare Officer
             </p>
             <p className="label-code mt-2 leading-relaxed text-muted">
               Guided squad to Team of the Year (2023) and recipient of

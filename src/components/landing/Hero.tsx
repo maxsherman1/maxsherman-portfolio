@@ -47,7 +47,7 @@ export default function Hero() {
 
       <div className="container-site relative">
         {/* Status row */}
-        <div className="mb-6 flex flex-wrap items-center gap-x-4 gap-y-2 sm:mb-8">
+        <div className="hidden mb-6 sm:flex flex-wrap items-center gap-x-4 gap-y-2 sm:mb-4">
           <span className="pill pill-status font-sans! text-[0.75rem] font-medium text-foreground">
             Available for Software Engineering Roles
           </span>

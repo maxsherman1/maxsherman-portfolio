@@ -3,10 +3,7 @@ import { GraduationCap, Award, CheckCircle2 } from "lucide-react";
 /* ---------- Icons (Lucide React) ---------- */
 
 const GradCapIcon = () => (
-  <GraduationCap size={14} strokeWidth={1.75} aria-hidden />
-);
-const AwardIcon = () => (
-  <Award size={16} strokeWidth={1.75} aria-hidden />
+  <GraduationCap className="mb-0.5" size={14} strokeWidth={1.75} aria-hidden />
 );
 const CheckCircleIcon = () => (
   <CheckCircle2 size={16} strokeWidth={1.75} aria-hidden />

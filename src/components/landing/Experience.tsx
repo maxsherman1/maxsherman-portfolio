@@ -3,7 +3,7 @@ import { Target, Calendar, MapPin, ChevronRight } from "lucide-react";
 /* ---------- Icons (Lucide React) ---------- */
 
 const TargetIcon = () => (
-  <Target size={14} strokeWidth={1.75} aria-hidden />
+  <Target className="mb-0.5" size={14} strokeWidth={1.75} aria-hidden />
 );
 const CalendarIcon = () => (
   <Calendar size={13} strokeWidth={1.75} aria-hidden />

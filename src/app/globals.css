@@ -124,6 +124,11 @@ h4 { font-size: 1.125rem; line-height: 1.4; letter-spacing: -0.01em; font-weight
   outline-offset: 2px;
 }
 
+/* Inputs handle their own focus-visible styling */
+.input:focus-visible {
+  outline: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {
@@ -263,6 +268,7 @@ h4 { font-size: 1.125rem; line-height: 1.4; letter-spacing: -0.01em; font-weight
     border-radius: var(--radius-md);
     padding: 0.5rem 0.75rem;
     color: var(--foreground);
+    transition: border-color 150ms ease, box-shadow 150ms ease;
   }
   .input::placeholder {
     color: var(--text-muted);
@@ -270,6 +276,18 @@ h4 { font-size: 1.125rem; line-height: 1.4; letter-spacing: -0.01em; font-weight
   .input:focus {
     outline: none;
     border-color: var(--accent);
+  }
+  .input:focus-visible {
+    box-shadow: 0 0 0 1px var(--accent);
+  }
+  .input[aria-invalid="true"] {
+    border-color: var(--error);
+  }
+  .input[aria-invalid="true"]:focus {
+    border-color: var(--error);
+  }
+  .input[aria-invalid="true"]:focus-visible {
+    box-shadow: 0 0 0 1px var(--error);
   }
 
   /* Terminal / code preview */

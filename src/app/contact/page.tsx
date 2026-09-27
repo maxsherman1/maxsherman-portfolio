@@ -115,7 +115,7 @@ export default function ContactPage() {
 
   function getInputClass(fieldName: keyof FormData) {
     const hasError = errors[fieldName] && touched[fieldName];
-    return `input ${hasError ? "border-error focus:border-error focus:ring-1 focus:ring-error" : ""}`;
+    return `input ${hasError ? "border-error" : ""}`;
   }
 
   function renderError(fieldName: keyof FormData) {
@@ -290,7 +290,7 @@ export default function ContactPage() {
             <button
               type="submit"
               disabled={status === "sending"}
-              className="btn btn-primary mt-6 w-full disabled:cursor-not-allowed disabled:opacity-60"
+              className="cursor-pointer btn btn-primary mt-6 w-full disabled:cursor-not-allowed disabled:opacity-60"
             >
               {status === "sending" ? "Sending…" : "Send Message"}
               <ArrowRight size={16} strokeWidth={1.75} aria-hidden />

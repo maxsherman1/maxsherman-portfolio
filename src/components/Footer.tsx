@@ -1,27 +1,33 @@
 import { Link2, Code, Mail, MapPin } from "lucide-react";
 
 const EMAIL = "contact@maxsherman.dev";
-const LINKEDIN_URL = "https://www.linkedin.com/in/"; // TODO: add your profile slug
-const GITHUB_URL = "https://github.com/"; // TODO: add your username
+const LINKEDIN_URL = "https://www.linkedin.com/in/maxsherman1";
+const GITHUB_URL = "https://github.com/maxsherman1";
 
-const LinkIcon = () => (
-  <Link2 size={14} strokeWidth={1.75} aria-hidden />
-);
-const CodeIcon = () => (
-  <Code size={14} strokeWidth={1.75} aria-hidden />
-);
-const MailIcon = () => (
-  <Mail size={14} strokeWidth={1.75} aria-hidden />
-);
-const PinIcon = () => (
-  <MapPin size={14} strokeWidth={1.75} aria-hidden />
-);
+const icons = {
+  linkedin: Link2,
+  github: Code,
+  email: Mail,
+  location: MapPin,
+} as const;
 
-const footerLinks = [
-  { href: LINKEDIN_URL, label: "LinkedIn", icon: <LinkIcon />, external: true },
-  { href: GITHUB_URL, label: "GitHub", icon: <CodeIcon />, external: true },
-  { href: `mailto:${EMAIL}`, label: "Email", icon: <MailIcon />, external: false },
+type FooterLink = {
+  href: string;
+  label: string;
+  icon: keyof typeof icons;
+  external: boolean;
+};
+
+const footerLinks: FooterLink[] = [
+  { href: LINKEDIN_URL, label: "LinkedIn", icon: "linkedin", external: true },
+  { href: GITHUB_URL, label: "GitHub", icon: "github", external: true },
+  { href: `mailto:${EMAIL}`, label: "Email", icon: "email", external: false },
 ];
+
+function Icon({ name, size = 14 }: { name: keyof typeof icons; size?: number }) {
+  const IconComponent = icons[name];
+  return <IconComponent size={size} strokeWidth={1.75} aria-hidden />;
+}
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -34,7 +40,7 @@ export default function Footer() {
             © {year} Max Sherman. Engineered with precision.
           </p>
           <p className="label-code mt-2 flex items-center gap-1.5 text-subtle">
-            <PinIcon />
+            <Icon name="location" />
             Netherlands &amp; UK
           </p>
         </div>
@@ -48,7 +54,7 @@ export default function Footer() {
               rel={link.external ? "noopener noreferrer" : undefined}
               className="label-code flex items-center gap-1.5 text-muted transition-colors hover:text-accent"
             >
-              {link.icon}
+              <Icon name={link.icon} />
               {link.label}
             </a>
           ))}

@@ -186,7 +186,7 @@ function MobileActions({ onClose }: { onClose?: () => void }) {
         type="button"
         aria-label={shareCopied ? "Link copied!" : "Share this page"}
         onClick={handleShare}
-        className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/[0.05] text-foreground"
+        className="cursor-pointer flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/[0.05] text-foreground"
       >
         <Icon icon={Share2} />
       </button>
@@ -298,7 +298,7 @@ export default function Header() {
             aria-expanded={menuOpen}
             aria-controls="mobile-nav"
             aria-label={menuOpen ? "Close menu" : "Open menu"}
-            className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/[0.05] text-foreground lg:hidden"
+            className="cursor-pointer flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white/[0.05] text-foreground lg:hidden"
           >
             {menuOpen ? <Icon icon={CloseIcon} size={20} /> : <Icon icon={MenuIcon} size={20} />}
           </button>
